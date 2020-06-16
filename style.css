@@ -136,13 +136,15 @@ section{}
 }
 
 .same {
-    width: 23.33%;
+    width: 23.13%;
     float: left;
     background: pink;
     margin: 10px;
     border-radius: 15px;
     padding: 45px;
+    border: 1px solid #e2e2e2;
 }
+
 .one{
 	background: #FEEBED;
 }
@@ -154,7 +156,7 @@ section{}
 
 
 .three {
-    background: #FFF8E7;
+    background: #FFF8D0;
 }
 
 .last-section h3{
