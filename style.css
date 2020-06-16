@@ -132,7 +132,7 @@ section{}
 .blog-section{
     padding-top:0;
     padding-bottom:50px;
-    
+
 }
 .col{
     width: 33.33%;
@@ -140,9 +140,10 @@ section{}
     padding: 10px;
     box-sizing: border-box;
 }
+
 .blog {
     background: #ffe8fc;
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
     box-shadow: 5px 4px 4px #8e848438;
 }
@@ -161,9 +162,20 @@ section{}
 .blog p{
     color: #;
     color: #7B7A82;
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
 }
+
+.one{
+    background: #FDEAEC;
+}
+.two{
+    background: #EAF9F4;
+}
+.three{
+    background: #FFF3D6;
+}
+
 
 /*last section end*/
 
