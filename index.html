@@ -1,86 +1,178 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
-	<title>quick 2</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<!-- header section start -->
-	<header>
-		<div class="wrapper">
-			<div class="logo">
-				<a href="#"><img src="images/dark.svg" alt="dark"></a>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About us</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Contact us</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<!-- header section end -->
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
 
-	<!-- about section start -->
-	<section class="about-section">
-		<div class="wrapper">
-			<h1>It`s time to amplify your <br><span>online business</span></h1>
-			<p>Build a beautiful, modern website with flexible Bootstrap components built from scratch.</p>
-		</div>
-	</section>
+header {}
+/*header section start*/
+header {
+    box-shadow: 0px 5px 5px 0px #0c0c0c1f;
+    padding: 20px 0;
+}
 
-	<!-- about section end -->
 
-	<!-- first image section start -->
-	<section>
-		<div class="wrapper">
-			<div class="main-img">
-				<img src="images/illustration-1.svg" alt="illustration">
-			</div>
-		</div>
-	</section>
-	<!-- first image section start -->
-    <!-- services sectin start -->
-	<section>
-		<div class="wrapper feature-bar">
-			<div class="column">
-				<div class="number padding">
-					<h2><span>3k+</span></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Exercitationem impedit quae a nostrum laborum, sapiente <br>aut dolore id recusandae blanditiis.</p>
-				</div>
-			</div>
-			<div class="column">
-				<div class="success padding">
-					<h2>Successfully <br>completed <br>projects and ideas.</h2>
-				</div>
-			</div>
-		</div>
-	</section>
-    <!-- services sectin start -->
-	<!-- last section start -->
-	<section class=" wrapper last-section">
-		<div class="one same">
-			<img src="images/illustration-5.svg" alt="illustration">
-			<h3>Unleash you creativity</h3>
-			<p>Lorem ipsum dolor sit amet,consecteturadipisicing elit.Sequi ad delectus perferendis cupiditate fugit, culpa recusandae, nostrum neque asperiores aliquam.</p>
-		</div>
-		<div class="two same">
-			<img src="images/illustration-6.svg" alt="illustration">
-			<h3>Unleash you creativity</h3>
-			<p>Lorem ipsum dolor sit amet,consectetur adipisicing elit.Sequi ad delectus perferendis cupiditate fugit,culpa recusandae, nostrum neque asperiores aliquam.</p>
-		</div>
-		<div class="three same">
-			<img src="images/illustration-7.svg" alt="illustration">
-			<h3>Unleash you creativity</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi ad delectus perferendis cupiditate fugit, culpa recusandae, nostrum neque asperiores aliquam.</p>
-		</div>
-	</section>
-	<!-- last section end -->
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
 
-</body>
-</html>
+.logo{width: 20%;float: left;}
+
+.logo a{}
+
+.logo img{}
+
+nav{width: 80%;float: left;}
+nav ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    /* float: left; */
+    display: inline-flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #475b75;
+    display: block;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    color: #0c66ff;
+}
+/*header section end*/
+
+
+/*about seciton start*/
+section{}
+.about-section {
+    text-align: center;
+    margin: 50px 0px;
+}
+.about-section h1 {
+    color: #3b506c;
+    font-size: 70px;
+    margin: 0;
+    max-width: 790px;
+    margin: auto;
+}
+
+.about-section h1 span{
+    color: #0c66ff;
+}
+.about-section p{
+    font-size: 18px;
+    color: #3b506c;
+    margin: 0;
+    padding-top: 10px;
+}
+
+/*about seciton end*/
+
+
+/*main-img section start*/
+.main-img{
+	display: block;
+	text-align: center;
+    background: #f9f9f9;
+}
+
+}
+.main-img img{
+	width: 20%;
+}
+/*main-img section start*/
+
+/*services section start*/
+.feature-bar {
+    padding: 40px 0;
+}
+.column {
+	width: 50%;
+	float: left;
+}
+
+.number h2{
+    margin: 0;
+    font-size: 70px;
+    text-align: right;
+    color: #F04D5E;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.number p {
+    margin: 0;
+    font-size: 16px;
+    text-align: right;
+    color: #3b506c;
+    line-height: 1.8;
+}
+
+.success h2{
+    margin: 0;
+    font-size: 55px;
+    color: #3b506c;
+}
+
+.padding{
+	padding:15px;
+}
+/*services section start*/
+
+/*last section start*/
+.last-section{
+	margin-bottom:30px;
+	margin-top:0;
+}
+
+.same {
+    width: 23%;
+    float: left;
+    background: pink;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 45px;
+    border: 1px solid #f1f0f0;
+}
+
+.one{
+	background: #FEEBED;
+}
+
+
+.two{
+	background: #EAF9F4;
+}
+
+
+.three {
+    background: #FFF8D0;
+}
+
+.last-section h3{
+	font-size: 24px;
+	color: #333;
+	margin: 0;
+}
+.last-section p{
+    margin: 0;
+    color: #736c6c;
+    padding-top:15px;
+}
+.same img{
+	width:100%;
+	height:300px;
+}
+/*last section end*/
+
+
