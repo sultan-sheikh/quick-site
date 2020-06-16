@@ -62,7 +62,7 @@ section{}
     color: #3b506c;
     font-size: 70px;
     margin: 0;
-    max-width: 800px;
+    max-width: 790px;
     margin: auto;
 }
 
@@ -136,7 +136,7 @@ section{}
 }
 
 .same {
-    width: 23.13%;
+    width: 23%;
     float: left;
     background: pink;
     margin: 10px;
