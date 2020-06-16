@@ -129,10 +129,10 @@ section{}
     padding-bottom:50px;
 
 }
-.col{
+.col {
     width: 33.33%;
     float: left;
-    padding: 10px;
+    padding: 20px;
     box-sizing: border-box;
 }
 
