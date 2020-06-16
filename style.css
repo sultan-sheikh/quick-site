@@ -20,9 +20,6 @@ header {
 
 .logo{width: 20%;float: left;}
 
-.logo a{}
-
-.logo img{}
 
 nav{width: 80%;float: left;}
 nav ul{
@@ -34,13 +31,12 @@ nav ul{
 
 nav ul li{
     list-style-type: none;
-    /* float: left; */
     display: inline-flex;
 }
 
 nav ul li a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     color: #475b75;
     display: block;
     padding: 10px 20px;
@@ -80,15 +76,14 @@ section{}
 
 
 /*main-img section start*/
-.main-img{
+.this_img{
     display: block;
     text-align: center;
     background: #f9f9f9;
 }
 
-}
-.main-img img{
-    width: 20%;
+.this_img img {
+    width:70%;
 }
 /*main-img section start*/
 
@@ -114,7 +109,7 @@ section{}
     font-size: 20px;
     text-align: right;
     color: #7B7A82;
-    line-height: 1.4;
+    line-height: 1.6;
 }
 
 .success h2{
