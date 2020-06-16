@@ -1,7 +1,7 @@
 body{
-	margin:0;
-	padding:0;
-	font-family:sans-serif;
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
 }
 
 header {}
@@ -81,14 +81,14 @@ section{}
 
 /*main-img section start*/
 .main-img{
-	display: block;
-	text-align: center;
+    display: block;
+    text-align: center;
     background: #f9f9f9;
 }
 
 }
 .main-img img{
-	width: 20%;
+    width: 20%;
 }
 /*main-img section start*/
 
@@ -97,8 +97,8 @@ section{}
     padding: 40px 0;
 }
 .column {
-	width: 50%;
-	float: left;
+    width: 50%;
+    float: left;
 }
 
 .number h2{
@@ -106,16 +106,15 @@ section{}
     font-size: 70px;
     text-align: right;
     color: #F04D5E;
-    padding-bottom: 15px;
-    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .number p {
     margin: 0;
-    font-size: 16px;
+    font-size: 20px;
     text-align: right;
-    color: #3b506c;
-    line-height: 1.8;
+    color: #7B7A82;
+    line-height: 1.4;
 }
 
 .success h2{
@@ -125,54 +124,47 @@ section{}
 }
 
 .padding{
-	padding:15px;
+    padding:15px;
 }
 /*services section start*/
 
 /*last section start*/
-.last-section{
-	margin-bottom:30px;
-	margin-top:0;
+.blog-section{
+    padding-top:0;
+    padding-bottom:50px;
+    
 }
-
-.same {
-    width: 23%;
+.col{
+    width: 33.33%;
     float: left;
-    background: pink;
-    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.blog {
+    background: #ffe8fc;
+    padding: 20px;
     border-radius: 15px;
-    padding: 45px;
-    border: 1px solid #f1f0f0;
+    box-shadow: 3px 3px 13px 6px #1b1b1b1f;
 }
 
-.one{
-	background: #FEEBED;
+.blog img{
+    width: 200px;
+    margin: auto;
+    height: 250px;
+    display: block;
 }
-
-
-.two{
-	background: #EAF9F4;
-}
-
-
-.three {
-    background: #FFF8D0;
-}
-
-.last-section h3{
-	font-size: 24px;
-	color: #333;
-	margin: 0;
-}
-.last-section p{
+.blog h3{
+    color: #3b5884;
+    font-size: 25px;
     margin: 0;
-    color: #736c6c;
-    padding-top:15px;
 }
-.same img{
-	width:100%;
-	height:300px;
+.blog p{
+    color: #;
+    color: #7B7A82;
+    font-size: 20px;
+    text-align: left;
 }
+
 /*last section end*/
 
 
